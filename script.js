@@ -6,7 +6,7 @@ class Person {
     }
 
     get _name(){
-        return this._name;
+        return this.name;
     }
 
     
