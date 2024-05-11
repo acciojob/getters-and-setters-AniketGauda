@@ -1,12 +1,12 @@
 //complete this code
 class Person {
 	constructor(name,age){
-        this.Name = name;
+        this._name = name;
         this.Age = age;
     }
 
     get name(){
-        return this.Name;
+        return this._name;
     }
 
     
